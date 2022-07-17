@@ -1,5 +1,4 @@
 from flask import Flask, render_template, redirect, request
-import cv2
 import predict as p
 
 # __name__ == __main__
