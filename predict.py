@@ -12,7 +12,7 @@ from keras.preprocessing import image
 from keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.utils import to_categorical
 from keras.layers import Input, Dense, Dropout, Embedding, LSTM
-from keras.layers.merge import add
+from keras.layers import add
 
 
 model = load_model("./model_weights/model_19.h5")
